@@ -1,0 +1,77 @@
+#form{
+  display: flex;
+}
+}.form-control {
+  width: 50%;
+}
+#searchB {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#loader-2 {
+  margin-left: 1vh;
+}
+#loader-3 {
+  margin-top: 4vh;
+}
+#title {
+  padding-top: 8vh;
+}
+.hide-elements {
+  visibility: hidden;
+}
+#results {
+  font-size: 12px;
+}
+#results img {
+  height: 3vh;
+}
+#results li {
+  list-style: none;
+  margin-top: 2vh;
+  border-bottom: 1px grey solid;
+}
+#companyProfil {
+  margin: 20px;
+}
+#companyProfil li {
+  list-style: none;
+}
+#listProfilItem2 {
+  display: flex;
+  margin: 15px 0 15px 0;
+}
+#listProfilItem1 a {
+  margin-left: 10px;
+  padding-top: 50px;
+}
+#listProfilItem1 {
+  display: flex;
+  text-align: center;
+}
+#changesP {
+  margin-left: 10px;
+}
+#myChart {
+  margin-left: 50px;
+}
+.positive-percent {
+  color: green;
+}
+.negative-percent {
+  color: red;
+}
+i {
+  size: 3x;
+  color: rgb(52, 58, 105);
+}
+#yellow{
+  background-color: #FFFF00
+}
+.btnCompare{
+  float: right;
+  background-color: rgb(37, 172, 147);
+
+}
