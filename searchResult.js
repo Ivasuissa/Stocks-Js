@@ -41,6 +41,7 @@ class SearchResult {
     const dataCompany = await response.json();
     console.log(dataCompany);
   }
+  
   async getStockValue(symbol) {
     const response = await fetch(
       `https://financialmodelingprep.com/api/v3/company/profile/${symbol}`
