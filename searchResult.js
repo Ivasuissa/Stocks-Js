@@ -9,6 +9,8 @@ class SearchResult {
     loader.classList.toggle("hide-elements", false);
     loader.classList.toggle("spinner-border", true);
     companies.map(company => {
+      let companyArray = companies[company];
+      console.log(companyArray);
       this.getStockValue(company.symbol).then(companyInfo => {
         let { image, companyName, changesPercentage } = companyInfo.profile;
         let companyLogo = this.getLogo(image);
@@ -29,7 +31,6 @@ class SearchResult {
         this.parent.appendChild(list);
       });
     });
-
     loader.classList.toggle("hide-elements", true);
     loader.classList.toggle("spinner-border", false);
   }
@@ -40,7 +41,6 @@ class SearchResult {
     const dataCompany = await response.json();
     console.log(dataCompany);
   }
-
   async getStockValue(symbol) {
     const response = await fetch(
       `https://financialmodelingprep.com/api/v3/company/profile/${symbol}`

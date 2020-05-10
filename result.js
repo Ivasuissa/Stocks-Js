@@ -91,6 +91,6 @@ setPercentage(changesPercentage){
 
 // }
 
-const result = document.getElementById("listComapny");
+const result = document.getElementById("listCompapny");
 new Result(result);
 

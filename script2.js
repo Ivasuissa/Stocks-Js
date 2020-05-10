@@ -22,7 +22,7 @@ function getCompanyProfil() {
       console.log(data);
       createElement2(data.profile);
       historyOfStockPrice();
-    })
+    });
 }
 getCompanyProfil();
 
